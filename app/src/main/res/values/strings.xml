@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CameraxCodeLab</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="camera_taken_photo">gallery</string>
+    <string name="camera_flash_auto">Auto</string>
+    <string name="camera_flash_off">Off</string>
+    <string name="camera_flash_on">On</string>
+    <string name="camera_flash">flash</string>
+</resources>
