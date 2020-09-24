@@ -1,0 +1,2 @@
+# camerax-sample
+CameraXで撮影した写真をPicturesディレクトリに保存する
