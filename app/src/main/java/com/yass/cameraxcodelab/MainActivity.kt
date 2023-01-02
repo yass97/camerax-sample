@@ -323,8 +323,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun log(message: String?) = Log.d("MainActivity", message)
-
     private fun startCamera() {
 
         // これによりカメラを開閉するタスクが不要になる
