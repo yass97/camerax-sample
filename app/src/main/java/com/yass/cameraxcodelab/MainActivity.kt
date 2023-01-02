@@ -323,8 +323,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun log(message: String?) = Log.d("MainActivity", message)
-
     private fun startCamera() {
 
         // これによりカメラを開閉するタスクが不要になる
@@ -339,7 +337,7 @@ class MainActivity : AppCompatActivity() {
             // Preview
             val preview = Preview.Builder()
                 .build()
-                .also { it.setSurfaceProvider(viewFinder.createSurfaceProvider()) }
+                .also { it.setSurfaceProvider(viewFinder.surfaceProvider) }
 
             this.imageCapture = ImageCapture.Builder().build()
 

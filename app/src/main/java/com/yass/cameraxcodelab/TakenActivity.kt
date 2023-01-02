@@ -18,6 +18,6 @@ class TakenActivity : AppCompatActivity() {
 
         val uri = intent.data
 
-        Picasso.with(this).load(uri).fit().centerCrop().into(binding.takenPhoto)
+        Picasso.get().load(uri).fit().centerCrop().into(binding.takenPhoto)
     }
 }

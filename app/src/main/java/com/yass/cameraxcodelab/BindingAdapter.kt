@@ -13,7 +13,7 @@ object BindingAdapter {
 
         file ?: return
 
-        Picasso.with(imageView.context)
+        Picasso.get()
             .load(file)
             .fit()
             .centerCrop()
